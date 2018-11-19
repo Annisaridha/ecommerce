@@ -631,7 +631,7 @@ $koneksi = new mysqli("localhost","ridha","ridha","dbstore");
 				</div>
 			</div>
 			<div class="row isotope-grid">
-				<?php $ambil = $koneksi->query("Select * from tblstore"); ?>
+				<?php $ambil = $koneksi->query("Select * from tblmen"); ?>
 				<?php while($tas = $ambil->fetch_assoc()){
 
 					?>
